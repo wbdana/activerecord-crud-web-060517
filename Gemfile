@@ -11,7 +11,7 @@ gem 'require_all'
 gem 'sqlite3'
 gem 'thin'
 gem 'shotgun'
-gem 'pry'
+gem 'pry-byebug'
 
 group :test do
   gem 'rspec'

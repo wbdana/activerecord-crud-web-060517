@@ -23,6 +23,7 @@ GEM
     addressable (2.4.0)
     arel (6.0.3)
     builder (3.2.2)
+    byebug (9.0.6)
     capybara (2.7.1)
       addressable
       mime-types (>= 1.16)
@@ -44,10 +45,13 @@ GEM
     minitest (5.8.4)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
-    pry (0.10.3)
+    pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (3.4.2)
+      byebug (~> 9.0)
+      pry (~> 0.10)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -97,7 +101,7 @@ DEPENDENCIES
   activerecord
   capybara
   database_cleaner!
-  pry
+  pry-byebug
   rack-test
   rake
   require_all
@@ -109,4 +113,4 @@ DEPENDENCIES
   thin
 
 BUNDLED WITH
-   1.11.2
+   1.15.1
